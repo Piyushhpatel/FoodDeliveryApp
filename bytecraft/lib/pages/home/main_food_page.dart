@@ -1,4 +1,4 @@
-import 'package:bytecraft/home/food_body_page.dart';
+import 'package:bytecraft/pages/home/food_body_page.dart';
 import 'package:bytecraft/utils/colors.dart';
 import 'package:bytecraft/utils/dimensions.dart';
 import 'package:bytecraft/widgets/big_text.dart';
