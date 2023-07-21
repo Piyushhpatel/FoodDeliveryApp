@@ -1,4 +1,4 @@
-import 'package:bytecraft/controllers/popular_product_controller.dart';
+import 'package:bytecraft/TempFolder/controllers/popular_product_controller.dart';
 import 'package:bytecraft/pages/food/popular_food_detail.dart';
 import 'package:bytecraft/pages/food/recommended_food_detail.dart';
 import 'package:bytecraft/pages/home/food_body_page.dart';
@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'helper/dependencies.dart' as dep;
+import 'TempFolder/helper/dependencies.dart' as dep;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

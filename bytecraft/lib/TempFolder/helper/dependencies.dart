@@ -1,6 +1,6 @@
-import 'package:bytecraft/controllers/popular_product_controller.dart';
-import 'package:bytecraft/data/api/api_client.dart';
-import 'package:bytecraft/data/repository/popular_product_repo.dart';
+import 'package:bytecraft/TempFolder/controllers/popular_product_controller.dart';
+import 'package:bytecraft/TempFolder/data/api/api_client.dart';
+import 'package:bytecraft/TempFolder/data/repository/popular_product_repo.dart';
 import 'package:bytecraft/utils/app_constants.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
@@ -14,4 +14,6 @@ Future<void> init() async {
 
   //Controllers
   Get.lazyPut(() => PopularProductController(popularProductRepo: Get.find()));
+
+  Get.find<PopularProductController>().getPopularProductList();
 }
